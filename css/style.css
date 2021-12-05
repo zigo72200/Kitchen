@@ -1,1 +1,225 @@
+:root {
+  --headr-color: #fff;
+  --button-bkcolor: #ff7400;
+  --button-text-color: #fff;
+  --accent-color: #d67e35;
+}
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  margin: 0;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.header-page {
+  position: absolute;
+  top: 0;
+  z-index: 5;
+  left: 50%;
+  transform: translateX(-50%);
+  padding-top: 50px;
+  color: var(--headr-color);
+}
+
+.box-header {
+  display: flex;
+  align-items: center;
+}
+
+.nav-box {
+  display: flex;
+  align-items: center;
+}
+
+.pag-nav {
+  display: flex;
+}
+
+.icon-basket {
+  fill: var(--headr-color);
+}
+
+.main-section {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.pag-nav__list:not(:last-child) {
+  margin-right: 23px;
+}
+
+.pag-nav {
+  margin-right: 36px;
+}
+
+.order {
+  margin-left: 50px;
+}
+
+.accent-text {
+  font-family: "Open Sans";
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.36;
+}
+
+.number {
+  font-family: "Open Sans";
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 1.39;
+  color: var(--headr-color);
+}
+
+.contact-taxt {
+  font-family: "Open Sans";
+  font-size: 14px;
+  line-height: 1.36;
+}
+
+.order {
+  margin-right: 45px;
+}
+
+.button {
+  padding: 14px 19px;
+
+  font-family: "Open Sans";
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.36;
+  color: var(--button-text-color);
+
+  background-color: var(--button-bkcolor);
+  border: none;
+}
+
+.hero {
+  position: relative;
+  margin: 0 auto;
+  width: 1440px;
+  height: 800px;
+  background-image: url("../imeges/hero_image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero-box {
+  padding-top: 322px;
+}
+
+.hero-taitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: auto;
+  width: 500px;
+}
+
+.hero-title-first {
+  font-family: Tinos;
+  font-size: 50px;
+  line-height: 1.14;
+  color: var(--accent-color);
+}
+
+.hero-title-second {
+  margin-bottom: 10px;
+
+  font-family: Tinos;
+  font-size: 80px;
+  line-height: 1.15;
+  color: var(--accent-color);
+}
+
+.restoran-name {
+  font-family: "Open Sans";
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.39;
+  color: var(--headr-color);
+}
+
+.restoran-name {
+  margin-bottom: 21px;
+}
+
+.test {
+  position: relative;
+}
+
+.preference {
+  position: absolute;
+  top: -107px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.preference-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 35px;
+  padding-bottom: 20px;
+
+  width: 350px;
+  min-height: 330px;
+
+  background-color: #fff;
+  box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1);
+}
+
+.preference-list:not(:last-child) {
+  margin-right: 31px;
+}
+
+.preference-icon {
+  fill: #bc9060;
+}
+
+.preference-titel {
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: Tinos;
+  font-size: 26px;
+  line-height: 1.15;
+  color: #2c2c2c;
+}
+
+.preference-titel span {
+  color: #bc9060;
+}
+
+.preference-text {
+  font-family: Tinos;
+  font-size: 26px;
+  line-height: 30px;
+  text-align: center;
+  color: #656363;
+}

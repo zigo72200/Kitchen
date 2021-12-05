@@ -5,43 +5,86 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width= , initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Tinos&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <head>
-        <img src="" alt="">
-        <nav>
-            <ul>
-                <li>Головна</li>
-                <li>Меню</li>
-                <li>Про нас</li>
-                <li>Бронь</li>
-            </ul>
-        </nav>
-    </head>
-    <section>
-        <p>Добро пожаловать в</p>
-        <h1>Наш ресторан</h1>
-        <p>ДОМ ЛУЧШЕЙ ЕДЫ</p>
-        <a href="">VIEW MENU</a>
-        <ul>
-            <li>
-                <img src="./imeges/Group.svg" alt="">
-                <h2>Магическая Атмосфера</h2>
-                <p>В нашем заведении царит магическая атмосфера
-                наполненная вкусными ароматами</p>
+    <header class="header-page">
+        <div class="container box-header">
+            <svg width="100" height="68">
+                <use href="./imeges/symbol-defs.svg#icon-logo"></use>
+            </svg>
+            <div class="main-section">
+                <nav class="nav-box accent-text">
+                    <ul class="pag-nav">
+                        <li class="pag-nav__list">Головна</li>
+                        <li class="pag-nav__list">Меню</li>
+                        <li class="pag-nav__list">Про нас</li>
+                        <li class="pag-nav__list">Бронь</li>
+                    </ul>
+                    <svg width="13" height="13" class="icon-basket">
+                        <use href="./imeges/symbol-defs.svg#icon-phone"></use>
+                    </svg>
+                </nav>
+                <div class="order">
+                    <div class="contact">
+                        <svg width="13" height="13" class="icon-basket">
+                            <use href="./imeges/symbol-defs.svg#icon-phone"></use>
+                        </svg>
+                        <a href="tel:+9998887654" class="number">+999-888-76-54</a>
+                    </div>
+                    <p class="contact-taxt">Свяжитесь с нами для <br>
+                        бронирования</p>
+                </div>
+                <button type="button " class="button">ЗАКАЗ СТОЛИКА</button>
+            </div>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="container hero-box">
+            <div class="hero-taitle">
+                <p class="hero-title-first">Добро пожаловать в</p>
+                <p class="hero-title-second">Наш ресторан</p>
+                <h1 class="restoran-name">ДОМ ЛУЧШЕЙ ЕДЫ</h1>
+                <button class="button btn-hero">VIEW MENU</button>
+            </div>
+            
+        </div>
+    </section>
+    <section class="container test">
+        <ul class="preference">
+            <li class="preference-list">
+                <svg class="preference-icon" width="87" height="87">
+                    <use href="./imeges/symbol-defs.svg#icon-salver"></use>
+                </svg>
+                <h2 class="preference-titel">Магическая <span>Атмосфера</span></h2>
+                <p class="preference-text">В нашем заведении царит магическая атмосфера
+                    наполненная вкусными ароматами</p>
             </li>
-            <li>
-                <img src="./imeges/Group.svg" alt="">
-                <h2>Магическая Атмосфера</h2>
-                <p>В нашем заведении царит магическая атмосфера
-                наполненная вкусными ароматами</p>
+            <li class="preference-list">
+                <svg class="preference-icon" width="87" height="87">
+                    <use href="./imeges/symbol-defs.svg#icon-salver"></use>
+                </svg>
+                <h2 class="preference-titel">Лучшее качество <span>Еды</span></h2>
+                <p class="preference-text">Качество нашей <br>
+                    Еды - отменное!</p>
             </li>
-            <li>
-                <img src="./imeges/Group.svg" alt="">
-                <h2>Магическая Атмосфера</h2>
-                <p>В нашем заведении царит магическая атмосфера
-                наполненная вкусными ароматами</p>
+            <li class="preference-list">
+                <svg class="preference-icon" width="87" height="87">
+                    <use href="./imeges/symbol-defs.svg#icon-salver"></use>
+                </svg>
+                <h2 class="preference-titel">Недорогая <span>Еда</span></h2>
+                <p class="preference-text">Стоимость нашей Еды
+                    зависит только от ее
+                    количества. Качество
+                    всегда на высоте!</p>
             </li>
         </ul>
     </section>
